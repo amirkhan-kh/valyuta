@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    place-content: center;
+    background-color: aquamarine;
+}
+.wrapper{
+    width: 100%;
+    padding: 50% 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color:silver;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.sel{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    height: 40px;
+    padding: 10px;
+}
+select{
+    width: 45%;
+    height: 30px;
+}
+button{
+    width: 100%;
+    height: 30px;
+    
+}
+.la{
+    display: flex;
+    justify-content: space-between;
+}
